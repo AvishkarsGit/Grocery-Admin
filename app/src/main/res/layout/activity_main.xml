@@ -8,25 +8,14 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:textSize="27sp"
-        android:id="@+id/avishkar"
-        android:layout_margin="20dp"
-        android:text="avishkar"/>
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/girl_potrait"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:id="@+id/btnShambho"
-        android:textStyle="bold"
-        android:textSize="27sp"
-        android:layout_margin="20dp"
-        android:text="shambho"/>
 
     <Button
         android:layout_width="match_parent"
@@ -36,9 +25,8 @@
         android:textStyle="bold"
         android:textSize="27sp"
         android:layout_margin="20dp"
-        android:background="@color/material_dynamic_primary50"
-        android:textColor="@color/material_dynamic_secondary10"
         android:elevation="200dp"
+        android:onClick="clickfunc"
         android:text="bc"/>
 
 </LinearLayout>
